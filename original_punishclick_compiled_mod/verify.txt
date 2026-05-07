@@ -1,0 +1,368 @@
+Compiled from "PunishmentTypeScreen.java"
+public class net.punishclick.PunishmentTypeScreen extends net.minecraft.class_437 {
+  private final net.minecraft.class_437 parent;
+
+  private final java.lang.String playerName;
+
+  public net.punishclick.PunishmentTypeScreen(net.minecraft.class_437, java.lang.String);
+    Code:
+       0: aload_0
+       1: ldc           #1                  // String ????? ?????????
+       3: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+       6: invokespecial #9                  // Method net/minecraft/class_437."<init>":(Lnet/minecraft/class_2561;)V
+       9: aload_0
+      10: aload_1
+      11: putfield      #15                 // Field parent:Lnet/minecraft/class_437;
+      14: aload_0
+      15: aload_2
+      16: putfield      #21                 // Field playerName:Ljava/lang/String;
+      19: return
+
+  protected void method_25426();
+    Code:
+       0: aload_0
+       1: getfield      #25                 // Field field_22789:I
+       4: iconst_2
+       5: idiv
+       6: istore_1
+       7: aload_0
+       8: getfield      #29                 // Field field_22790:I
+      11: iconst_2
+      12: idiv
+      13: bipush        80
+      15: isub
+      16: istore_2
+      17: sipush        240
+      20: istore_3
+      21: bipush        20
+      23: istore        4
+      25: bipush        22
+      27: istore        5
+      29: aload_0
+      30: iload_1
+      31: iload_2
+      32: iload_3
+      33: iload         4
+      35: aload_0
+      36: getfield      #21                 // Field playerName:Ljava/lang/String;
+      39: invokedynamic #32,  0             // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+      44: invokevirtual #36                 // Method addLabel:(IIIILjava/lang/String;)V
+      47: aload_0
+      48: iload_1
+      49: iload_2
+      50: iload         5
+      52: iadd
+      53: iload_3
+      54: iload         4
+      56: ldc           #40                 // String ???????? ????????
+      58: invokevirtual #36                 // Method addLabel:(IIIILjava/lang/String;)V
+      61: aload_0
+      62: ldc           #42                 // String 1. ?????????????? /warn 2.1
+      64: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+      67: aload_0
+      68: invokedynamic #44,  0             // InvokeDynamic #1:onPress:(Lnet/punishclick/PunishmentTypeScreen;)Lnet/minecraft/class_4185$class_4241;
+      73: invokestatic  #48                 // Method net/minecraft/class_4185.method_46430:(Lnet/minecraft/class_2561;Lnet/minecraft/class_4185$class_4241;)Lnet/minecraft/class_4185$class_7840;
+      76: iload_1
+      77: iload_3
+      78: iconst_2
+      79: idiv
+      80: isub
+      81: iload_2
+      82: iload         5
+      84: iconst_2
+      85: imul
+      86: iadd
+      87: iload_3
+      88: iload         4
+      90: invokevirtual #54                 // Method net/minecraft/class_4185$class_7840.method_46434:(IIII)Lnet/minecraft/class_4185$class_7840;
+      93: invokevirtual #60                 // Method net/minecraft/class_4185$class_7840.method_46431:()Lnet/minecraft/class_4185;
+      96: invokevirtual #64                 // Method method_37063:(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;
+      99: pop
+     100: aload_0
+     101: ldc           #68                 // String 2. ???
+     103: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+     106: aload_0
+     107: invokedynamic #70,  0             // InvokeDynamic #2:onPress:(Lnet/punishclick/PunishmentTypeScreen;)Lnet/minecraft/class_4185$class_4241;
+     112: invokestatic  #48                 // Method net/minecraft/class_4185.method_46430:(Lnet/minecraft/class_2561;Lnet/minecraft/class_4185$class_4241;)Lnet/minecraft/class_4185$class_7840;
+     115: iload_1
+     116: iload_3
+     117: iconst_2
+     118: idiv
+     119: isub
+     120: iload_2
+     121: iload         5
+     123: iconst_3
+     124: imul
+     125: iadd
+     126: iload_3
+     127: iload         4
+     129: invokevirtual #54                 // Method net/minecraft/class_4185$class_7840.method_46434:(IIII)Lnet/minecraft/class_4185$class_7840;
+     132: invokevirtual #60                 // Method net/minecraft/class_4185$class_7840.method_46431:()Lnet/minecraft/class_4185;
+     135: invokevirtual #64                 // Method method_37063:(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;
+     138: pop
+     139: aload_0
+     140: ldc           #71                 // String 3. ???
+     142: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+     145: aload_0
+     146: invokedynamic #73,  0             // InvokeDynamic #3:onPress:(Lnet/punishclick/PunishmentTypeScreen;)Lnet/minecraft/class_4185$class_4241;
+     151: invokestatic  #48                 // Method net/minecraft/class_4185.method_46430:(Lnet/minecraft/class_2561;Lnet/minecraft/class_4185$class_4241;)Lnet/minecraft/class_4185$class_7840;
+     154: iload_1
+     155: iload_3
+     156: iconst_2
+     157: idiv
+     158: isub
+     159: iload_2
+     160: iload         5
+     162: iconst_4
+     163: imul
+     164: iadd
+     165: iload_3
+     166: iload         4
+     168: invokevirtual #54                 // Method net/minecraft/class_4185$class_7840.method_46434:(IIII)Lnet/minecraft/class_4185$class_7840;
+     171: invokevirtual #60                 // Method net/minecraft/class_4185$class_7840.method_46431:()Lnet/minecraft/class_4185;
+     174: invokevirtual #64                 // Method method_37063:(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;
+     177: pop
+     178: aload_0
+     179: ldc           #74                 // String 4. ??? ?? IP
+     181: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+     184: aload_0
+     185: invokedynamic #76,  0             // InvokeDynamic #4:onPress:(Lnet/punishclick/PunishmentTypeScreen;)Lnet/minecraft/class_4185$class_4241;
+     190: invokestatic  #48                 // Method net/minecraft/class_4185.method_46430:(Lnet/minecraft/class_2561;Lnet/minecraft/class_4185$class_4241;)Lnet/minecraft/class_4185$class_7840;
+     193: iload_1
+     194: iload_3
+     195: iconst_2
+     196: idiv
+     197: isub
+     198: iload_2
+     199: iload         5
+     201: iconst_5
+     202: imul
+     203: iadd
+     204: iload_3
+     205: iload         4
+     207: invokevirtual #54                 // Method net/minecraft/class_4185$class_7840.method_46434:(IIII)Lnet/minecraft/class_4185$class_7840;
+     210: invokevirtual #60                 // Method net/minecraft/class_4185$class_7840.method_46431:()Lnet/minecraft/class_4185;
+     213: invokevirtual #64                 // Method method_37063:(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;
+     216: pop
+     217: aload_0
+     218: ldc           #77                 // String 5. ??????? ?? ???????? /check
+     220: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+     223: aload_0
+     224: invokedynamic #79,  0             // InvokeDynamic #5:onPress:(Lnet/punishclick/PunishmentTypeScreen;)Lnet/minecraft/class_4185$class_4241;
+     229: invokestatic  #48                 // Method net/minecraft/class_4185.method_46430:(Lnet/minecraft/class_2561;Lnet/minecraft/class_4185$class_4241;)Lnet/minecraft/class_4185$class_7840;
+     232: iload_1
+     233: iload_3
+     234: iconst_2
+     235: idiv
+     236: isub
+     237: iload_2
+     238: iload         5
+     240: bipush        6
+     242: imul
+     243: iadd
+     244: iload_3
+     245: iload         4
+     247: invokevirtual #54                 // Method net/minecraft/class_4185$class_7840.method_46434:(IIII)Lnet/minecraft/class_4185$class_7840;
+     250: invokevirtual #60                 // Method net/minecraft/class_4185$class_7840.method_46431:()Lnet/minecraft/class_4185;
+     253: invokevirtual #64                 // Method method_37063:(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;
+     256: pop
+     257: aload_0
+     258: ldc           #231                // String 6. ????? ? ???????? /check
+     260: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+     263: aload_0
+     264: invokedynamic #82,  0             // InvokeDynamic #6:onPress:(Lnet/punishclick/PunishmentTypeScreen;)Lnet/minecraft/class_4185$class_4241;
+     269: invokestatic  #48                 // Method net/minecraft/class_4185.method_46430:(Lnet/minecraft/class_2561;Lnet/minecraft/class_4185$class_4241;)Lnet/minecraft/class_4185$class_7840;
+     272: iload_1
+     273: bipush        50
+     275: isub
+     276: iload_2
+     277: iload         5
+     279: bipush        7
+     281: imul
+     282: iadd
+     283: bipush        100
+     285: iload         4
+     287: invokevirtual #54                 // Method net/minecraft/class_4185$class_7840.method_46434:(IIII)Lnet/minecraft/class_4185$class_7840;
+     290: invokevirtual #60                 // Method net/minecraft/class_4185$class_7840.method_46431:()Lnet/minecraft/class_4185;
+     293: invokevirtual #64                 // Method method_37063:(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;
+     296: pop
+     297: aload_0
+     298: ldc           #80                 // String ?????
+     300: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+     303: new           #233                // class net/punishclick/PunishmentTypeScreen$BackAction
+     306: dup
+     307: aload_0
+     308: invokespecial #237                // Method net/punishclick/PunishmentTypeScreen$BackAction."<init>":(Lnet/punishclick/PunishmentTypeScreen;)V
+     311: invokestatic  #48                 // Method net/minecraft/class_4185.method_46430:(Lnet/minecraft/class_2561;Lnet/minecraft/class_4185$class_4241;)Lnet/minecraft/class_4185$class_7840;
+     314: iload_1
+     315: bipush        50
+     317: isub
+     318: iload_2
+     319: iload         5
+     321: bipush        9
+     323: imul
+     324: iadd
+     325: bipush        100
+     327: iload         4
+     329: invokevirtual #54                 // Method net/minecraft/class_4185$class_7840.method_46434:(IIII)Lnet/minecraft/class_4185$class_7840;
+     332: invokevirtual #60                 // Method net/minecraft/class_4185$class_7840.method_46431:()Lnet/minecraft/class_4185;
+     335: invokevirtual #64                 // Method method_37063:(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;
+     338: pop
+     339: return
+
+  private void sendWarn();
+    Code:
+       0: new           #83                 // class net/punishclick/PunishmentDraft
+       3: dup
+       4: aload_0
+       5: getfield      #21                 // Field playerName:Ljava/lang/String;
+       8: getstatic     #85                 // Field net/punishclick/PunishmentType.WARN:Lnet/punishclick/PunishmentType;
+      11: ldc           #91                 // String
+      13: ldc           #93                 // String 2.1
+      15: iconst_0
+      16: invokespecial #95                 // Method net/punishclick/PunishmentDraft."<init>":(Ljava/lang/String;Lnet/punishclick/PunishmentType;Ljava/lang/String;Ljava/lang/String;Z)V
+      19: invokestatic  #98                 // Method net/punishclick/CommandSender.send:(Lnet/punishclick/PunishmentDraft;)V
+      22: return
+
+  private void sendCheck();
+    Code:
+       0: invokestatic  #104                // Method net/minecraft/class_310.method_1551:()Lnet/minecraft/class_310;
+       3: astore_1
+       4: aload_1
+       5: ifnull        15
+       8: aload_1
+       9: invokevirtual #110                // Method net/minecraft/class_310.method_1562:()Lnet/minecraft/class_634;
+      12: ifnonnull     16
+      15: return
+      16: aload_1
+      17: invokevirtual #110                // Method net/minecraft/class_310.method_1562:()Lnet/minecraft/class_634;
+      20: aload_0
+      21: getfield      #21                 // Field playerName:Ljava/lang/String;
+      24: invokedynamic #114,  0            // InvokeDynamic #7:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+      29: aload_1
+      30: invokevirtual #110                // Method net/minecraft/class_310.method_1562:()Lnet/minecraft/class_634;
+      33: ldc           #239                // String tp
+      35: aload_0
+      36: getfield      #21                 // Field playerName:Ljava/lang/String;
+      39: invokevirtual #225                // Method java/lang/String.concat:(Ljava/lang/String;)Ljava/lang/String;
+      42: invokevirtual #115                // Method net/minecraft/class_634.method_45730:(Ljava/lang/String;)V
+      45: invokevirtual #115                // Method net/minecraft/class_634.method_45730:(Ljava/lang/String;)V
+      48: aload_1
+      49: invokevirtual #110                // Method net/minecraft/class_310.method_1562:()Lnet/minecraft/class_634;
+      52: ldc           #227                // String tell
+      54: aload_0
+      55: getfield      #21                 // Field playerName:Ljava/lang/String;
+      58: invokevirtual #225                // Method java/lang/String.concat:(Ljava/lang/String;)Ljava/lang/String;
+      61: ldc           #229                // String  ????????????, ???????? ?? ????. ? ??????? 5 ????? ??? ??? Anydesk(????????? ???????, ??????? ????? ? ????? ????????)/Discord. ????? ???????, ??? ? ?????? ????????? ?? ??????? ???-???????? ???? ???? ???????? 20 ????, ?????? 30.
+      63: invokevirtual #225                // Method java/lang/String.concat:(Ljava/lang/String;)Ljava/lang/String;
+      66: invokevirtual #115                // Method net/minecraft/class_634.method_45730:(Ljava/lang/String;)V
+      69: aload_1
+      70: aconst_null
+      71: invokevirtual #121                // Method net/minecraft/class_310.method_1507:(Lnet/minecraft/class_437;)V
+      74: return
+
+  private void addLabel(int, int, int, int, java.lang.String);
+    Code:
+       0: aload         5
+       2: invokestatic  #3                  // InterfaceMethod net/minecraft/class_2561.method_43470:(Ljava/lang/String;)Lnet/minecraft/class_5250;
+       5: invokedynamic #125,  0            // InvokeDynamic #8:onPress:()Lnet/minecraft/class_4185$class_4241;
+      10: invokestatic  #48                 // Method net/minecraft/class_4185.method_46430:(Lnet/minecraft/class_2561;Lnet/minecraft/class_4185$class_4241;)Lnet/minecraft/class_4185$class_7840;
+      13: iload_1
+      14: iload_3
+      15: iconst_2
+      16: idiv
+      17: isub
+      18: iload_2
+      19: iload_3
+      20: iload         4
+      22: invokevirtual #54                 // Method net/minecraft/class_4185$class_7840.method_46434:(IIII)Lnet/minecraft/class_4185$class_7840;
+      25: invokevirtual #60                 // Method net/minecraft/class_4185$class_7840.method_46431:()Lnet/minecraft/class_4185;
+      28: astore        6
+      30: aload         6
+      32: iconst_0
+      33: putfield      #128                // Field net/minecraft/class_4185.field_22763:Z
+      36: aload_0
+      37: aload         6
+      39: invokevirtual #64                 // Method method_37063:(Lnet/minecraft/class_364;)Lnet/minecraft/class_364;
+      42: pop
+      43: return
+
+  public void method_25419();
+    Code:
+       0: aload_0
+       1: getfield      #132                // Field field_22787:Lnet/minecraft/class_310;
+       4: aload_0
+       5: getfield      #15                 // Field parent:Lnet/minecraft/class_437;
+       8: invokevirtual #121                // Method net/minecraft/class_310.method_1507:(Lnet/minecraft/class_437;)V
+      11: return
+
+  private static void lambda$addLabel$6(net.minecraft.class_4185);
+    Code:
+       0: return
+
+  private void lambda$method_25426$5(net.minecraft.class_4185);
+    Code:
+       0: aload_0
+       1: getfield      #132                // Field field_22787:Lnet/minecraft/class_310;
+       4: invokevirtual #110                // Method net/minecraft/class_310.method_1562:()Lnet/minecraft/class_634;
+       7: aload_0
+       8: getfield      #21                 // Field playerName:Ljava/lang/String;
+      11: invokedynamic #114,  0            // InvokeDynamic #7:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+      16: invokevirtual #115                // Method net/minecraft/class_634.method_45730:(Ljava/lang/String;)V
+      19: aload_0
+      20: getfield      #132                // Field field_22787:Lnet/minecraft/class_310;
+      23: aconst_null
+      24: invokevirtual #121                // Method net/minecraft/class_310.method_1507:(Lnet/minecraft/class_437;)V
+      27: return
+
+  private void lambda$method_25426$4(net.minecraft.class_4185);
+    Code:
+       0: aload_0
+       1: invokevirtual #140                // Method sendCheck:()V
+       4: return
+
+  private void lambda$method_25426$3(net.minecraft.class_4185);
+    Code:
+       0: aload_0
+       1: getfield      #132                // Field field_22787:Lnet/minecraft/class_310;
+       4: new           #143                // class net/punishclick/IpBanReasonScreen
+       7: dup
+       8: aload_0
+       9: aload_0
+      10: getfield      #21                 // Field playerName:Ljava/lang/String;
+      13: invokespecial #145                // Method net/punishclick/IpBanReasonScreen."<init>":(Lnet/minecraft/class_437;Ljava/lang/String;)V
+      16: invokevirtual #121                // Method net/minecraft/class_310.method_1507:(Lnet/minecraft/class_437;)V
+      19: return
+
+  private void lambda$method_25426$2(net.minecraft.class_4185);
+    Code:
+       0: aload_0
+       1: getfield      #132                // Field field_22787:Lnet/minecraft/class_310;
+       4: new           #148                // class net/punishclick/BanReasonScreen
+       7: dup
+       8: aload_0
+       9: aload_0
+      10: getfield      #21                 // Field playerName:Ljava/lang/String;
+      13: invokespecial #150                // Method net/punishclick/BanReasonScreen."<init>":(Lnet/minecraft/class_437;Ljava/lang/String;)V
+      16: invokevirtual #121                // Method net/minecraft/class_310.method_1507:(Lnet/minecraft/class_437;)V
+      19: return
+
+  private void lambda$method_25426$1(net.minecraft.class_4185);
+    Code:
+       0: aload_0
+       1: getfield      #132                // Field field_22787:Lnet/minecraft/class_310;
+       4: new           #151                // class net/punishclick/MuteReasonScreen
+       7: dup
+       8: aload_0
+       9: aload_0
+      10: getfield      #21                 // Field playerName:Ljava/lang/String;
+      13: invokespecial #153                // Method net/punishclick/MuteReasonScreen."<init>":(Lnet/minecraft/class_437;Ljava/lang/String;)V
+      16: invokevirtual #121                // Method net/minecraft/class_310.method_1507:(Lnet/minecraft/class_437;)V
+      19: return
+
+  private void lambda$method_25426$0(net.minecraft.class_4185);
+    Code:
+       0: aload_0
+       1: invokevirtual #154                // Method sendWarn:()V
+       4: return
+}
